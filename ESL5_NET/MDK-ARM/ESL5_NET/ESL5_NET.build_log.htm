@@ -1,0 +1,153 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1231313 27925, 123123132113, LIC=9WSKC-7L7B2-TGZ7T-RRZ5J-Z5PI5-RKTTA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  D:\Program Files\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+F:\WORKSTATION\STM32Cube\ESL5_NET\MDK-ARM\ESL5_NET.uvprojx
+Project File Date:  01/16/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Program Files\Keil_v5\ARM\ARMCC\Bin'
+Build target 'ESL5_NET'
+assembling startup_stm32h743xx.s...
+compiling armlib_lock_glue.c...
+compiling gpio.c...
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(32): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_Init(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(33): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadOneByte(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(34): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteOneByte(u8 DataToWrite);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+../Core/Src/gpio.c: 0 warnings, 7 errors
+compiling tim.c...
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(32): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_Init(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(33): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadOneByte(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(34): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteOneByte(u8 DataToWrite);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+../Core/Src/tim.c: 0 warnings, 7 errors
+compiling usart.c...
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(32): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_Init(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(33): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadOneByte(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(34): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteOneByte(u8 DataToWrite);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+../Core/Src/usart.c: 0 warnings, 7 errors
+compiling freertos.c...
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(32): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_Init(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(33): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadOneByte(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(34): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteOneByte(u8 DataToWrite);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+../Core/Src/freertos.c(143): warning:  #223-D: function "MX_LWIP_Process" declared implicitly
+  	MX_LWIP_Process();
+../Core/Src/freertos.c: 1 warning, 7 errors
+compiling stm32h7xx_hal_msp.c...
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(32): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_Init(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(33): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadOneByte(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(34): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteOneByte(u8 DataToWrite);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+../Core/Src/stm32h7xx_hal_msp.c: 0 warnings, 7 errors
+compiling stm32h7xx_it.c...
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(32): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_Init(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(33): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadOneByte(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(34): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteOneByte(u8 DataToWrite);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+../Core/Src/stm32h7xx_it.c: 0 warnings, 7 errors
+compiling main.c...
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(32): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_Init(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(33): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadOneByte(void); 
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(34): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteOneByte(u8 DataToWrite);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(35): error:  #20: identifier "u8" is undefined
+  void PCF8574_WriteBit(u8 bit,u8 sta);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+..\Drivers\BSP\Components\PCF8574\pcf8574.h(36): error:  #20: identifier "u8" is undefined
+  u8 PCF8574_ReadBit(u8 bit);
+../Core/Src/main.c: 0 warnings, 7 errors
+compiling ethernetif.c...
+compiling stm32h7xx_hal_timebase_tim.c...
+compiling lwip.c...
+compiling stm32h7xx_hal_eth_ex.c...
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_eth.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling stm32h7xx_hal_flash.c...
